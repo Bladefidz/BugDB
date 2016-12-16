@@ -1,0 +1,313 @@
+/**
+ * Layout and contents
+ */
+
+.title-bar {
+    border-bottom: 3px solid #ddd;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.content-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.content-header p {
+    margin: 0px;
+}
+
+.content-header-title {
+    font-weight: bold;
+    font-size: 26px;
+    width: 90%;
+}
+
+.content-header-nav-right {
+    padding-left: 0;
+    text-align: right;
+    display: inherit;
+}
+
+.content-header-nav-left {
+    padding-right: 0;
+    text-align: left;
+    display: inherit;
+}
+
+.content-nav {
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 30px;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.content-nav a {
+    text-decoration: none;
+}
+
+.content-nav a:hover {
+    text-decoration: none;
+}
+
+.content-nav a:focus {
+    text-decoration: none;
+}
+
+.content-nav-text {
+    width: 40%;
+    text-align: left;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.content-nav-btn {
+    width: 60%;
+    text-align: right;
+}
+
+.content-nav .input-group {
+    max-width: 50%;
+}
+
+.content-body {
+    padding-bottom: 50px;
+}
+
+
+/**
+ * CARD
+ */
+
+.card-container {
+    padding-bottom: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 30px;
+    padding: 15px;
+    text-decoration: none;
+    color: #777777;
+    transition: 0.5s;
+}
+
+.card:hover {
+    text-decoration: none;
+    color: #777777;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-oulined {
+    border: 1px solid #333;
+    margin-bottom: 30px;
+    padding: 15px;
+    text-decoration: none;
+    color: #777777;
+    transition: 0.5s;
+}
+
+.card-new {
+    background-color: #ffffff;
+}
+
+.card-viewed {
+}
+
+.card-approved {
+    border-top: 5px solid #94cc7a;
+}
+
+.card-decline {
+    border-top: 5px solid #f37e7f;
+}
+
+.card-waiting {
+    border-top: 5px solid #e6ea83;
+}
+
+.card-datetime {
+    text-align: center;
+    justify-content: center;
+    border-right: 3px solid #ddd;
+    padding-right: 10px;
+}
+
+.card-datetime .date {
+    margin-top: 25%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-datetime .hour {
+    margin-top: 5%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-subtitle {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.card-clip {
+    font-size: 14px;
+    padding: 10px;
+    margin-top: -15px;
+    border: 1px solid #333;
+    border-top: none;
+    width: 30%;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.card-text p {
+    margin: 0px;
+}
+
+.card-text-section {
+    padding-bottom: 40px;
+}
+
+.card-text-title {
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 10px !important;
+}
+
+.card-thumb {
+    max-width: 100%;
+}
+
+/**
+ * List View
+ */
+.listview-container {
+    padding-bottom: 20px;
+}
+
+.listview-item {
+    padding: 15px;
+    display: -webkit-flex;
+    display: flex;
+    text-decoration: none;
+    color: #777777;
+    transition: 0.5s;
+    border-bottom: 0.5px solid #ddd;
+    margin-bottom: 5px;
+}
+
+
+.listview-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+}
+
+.listview-item-active {
+    background-color: #ffffff;
+}
+
+.listview-project-name {
+    cursor: pointer;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: calc(100% - 90px);
+    overflow: hidden;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: #222;
+}
+
+.listview-project-name p {
+    margin: 0px;
+}
+
+
+/**
+ * BUTTON
+ */
+
+.btn-flat {
+    background: none;
+    border: none;
+}
+
+.btn-bg-black {
+    color: #333;
+}
+
+.btn-card-loader {
+    width: 100%;
+    min-height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.btn-card-success {
+    width: 100%;
+    min-height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+    font-weight: 600;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.btn-card-loader:hover,
+.btn-card-success:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-outline {
+    color: inherit;
+    background-color: transparent;
+    transition: all .5s;
+}
+
+
+/**
+ * FONT
+ */
+// Size
+.fs-12px {
+    font-size: 12px !important;
+}
+
+.fs-14px {
+    font-size: 14px !important;
+}
+
+.fs-24px {
+    font-size: 24px !important;
+}
+
+// Weight
+.fw-500 {
+    font-weight: 500;
+}
+
+
+/**
+ * Text
+ */
+.ta-center {
+    text-align: center;
+}
